@@ -5,7 +5,8 @@
 	$category = $data['records'];
 ?>
 <center>
-<form action="pro_create.php" method="POST">
+<div class="div">
+	<form action="pro_create.php" method="POST">
 <h1> Create Product </h1>
 <input type="text" name="name" placeholder="name"/>
 <input type="text" name="description" placeholder="description"/>
@@ -23,4 +24,5 @@
 <input type="submit" name="submit" value="submit"/>
 
 </form>
+	</div>
 </center>
