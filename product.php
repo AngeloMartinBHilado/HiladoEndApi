@@ -34,19 +34,11 @@ foreach($list as $value){
     ?>
     <tr>
         <td><?php echo $value['id'];?></td>
-        <td><a href="index.php?navigation=detail"></a></td>
+        <td><a href="product-details.php?id=<?php echo $value['id'];?>"><?php echo $value['name'];?></a></td>
         <td><?php echo $value['price'];?></td>
     </tr>
 <?php
 }
-    ?>
-	<?php 
-        switch($navigation){
-          case 'detail':
-            require_once 'product-details.php?id=<?php echo $value['name'];?>';
-            break;
-         
-        }
     ?>
 </table>
 </center>	
