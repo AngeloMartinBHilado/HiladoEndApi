@@ -44,17 +44,9 @@ foreach($list as $value){
       <?php 
         switch($navigation){
           case 'product':
-            require_once 'product.php';
-            break;
-          case 'categories':
-            require_once 'categories.php';
-            break;
-          case 'create':
-            require_once 'form_create.php';
-            break;
-          case 'details':
             require_once 'product-details.php';
             break;
+        
         }
     ?>
       </div>
