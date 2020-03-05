@@ -43,8 +43,8 @@ foreach($list as $value){
 	  <div>         
       <?php 
         switch($navigation){
-          case 'product':
-            require_once 'product-details.php?id=<?php echo $value['id'];?>"><?php echo $value['name']';
+          case 'detail':
+            require_once 'product-details.php';
             break;
         
         }
