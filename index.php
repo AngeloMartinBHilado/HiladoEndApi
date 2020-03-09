@@ -8,9 +8,7 @@ $navigation = (isset($_GET['navigation']) && $_GET['navigation'] != '') ? $_GET[
       <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Fira+Sans|Mukta&display=swap" rel="stylesheet">
     </head>
     <body>
-      <div class="header">
-        <img src="images/logo.png" style="width:300px;height:200px;">
-      </div>
+     
 
       <div class="navbar">
         <a href="index.php?navigation=product">Products</a>
