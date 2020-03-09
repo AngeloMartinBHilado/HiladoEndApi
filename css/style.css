@@ -86,9 +86,7 @@
     border-bottom: 1px solid #c4e9ff;
   }
   
-  tr{
-    font-family: 'Fira Sans', sans-serif;
-  }
+ tr:nth-child(even){background-color: #00FFFF}
   
   th {
     background-color: #003366;
